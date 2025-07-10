@@ -118,7 +118,7 @@ body.dark-mode {
 .nav-btn:hover {
   color: white;
   background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 140, 66, 0.3);
+  border-color: rgba(255, 255, 255, 0.1);
   transform: translateY(-2px);
 }
 
@@ -126,7 +126,7 @@ body.dark-mode {
   color: white;
   background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%);
   border-color: var(--primary-orange);
-  box-shadow: 0 6px 20px rgba(255, 140, 66, 0.3);
+  box-shadow: 0 6px 20px rgba(66, 116, 255, 0.3);
 }
 
 body.dark-mode .navbar {
@@ -394,7 +394,7 @@ body.dark-mode .modal-content {
 
 body.dark-mode .input-unique {
   background: var(--glass-dark);
-  border-color: rgba(255, 140, 66, 0.2);
+  border-color: rgba(255, 255, 255, 0.1);
   color: var(--text-dark);
 }
 
@@ -411,14 +411,14 @@ body.dark-mode .input-unique {
   color: white;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 8px 30px rgba(255, 140, 66, 0.3);
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.1);;
   transition: all 0.3s ease;
   user-select: none;
 }
 
 .button-unique:hover {
   filter: brightness(1.15);
-  box-shadow: 0 10px 40px rgba(255, 140, 66, 0.6);
+  box-shadow: 0 10px 40px rgba(255, 255, 255, 0.1);;
 }
 
 .button-unique:focus {
@@ -534,13 +534,13 @@ body.dark-mode .msl-server-players {
   padding:0.8rem 1.2rem;
   font-weight:600;
   cursor:pointer;
-  box-shadow:0 6px 20px rgba(255,140,66,0.25);
+  box-shadow:0 6px 20px rgba(255, 255, 255, 0.1);
 }
 
 .msl-copy-button:hover {
-  background:linear-gradient(135deg,var(--darkorange),#e55a11);
+  background:linear-gradient(135deg,var(--darkorange),#4f8cc9);
   transform:translateY(-2px);
-  box-shadow:0 12px 32px rgba(255,140,66,0.35);
+  box-shadow:0 12px 32px rgba(255, 255, 255, 0.1);
 }
 
 .dark-mode .main-title {
