@@ -186,7 +186,7 @@ document.querySelectorAll('.msl-copy-button').forEach(button => {
       const ip = button.getAttribute('data-ip');
       navigator.clipboard.writeText(ip).then(() => {
         button.textContent = "Copied!";
-        setTimeout(() => button.textContent = "Copy IP", 1500);
+        setTimeout(() => button.textContent = "Kopieer Link", 1500);
       });
     });
 });
