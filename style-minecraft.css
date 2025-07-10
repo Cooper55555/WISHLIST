@@ -452,7 +452,7 @@ body.dark-mode .input-unique {
   width: 100%;
   max-width: 480px;
   padding: 1rem;
-  border: 2px solid rgba(255, 140, 66, 0.1);
+  border: 2px solid #4f8cc9;
   background: var(--glass-light);
   color: var(--text-light);
   border-radius: 12px;
@@ -462,7 +462,7 @@ body.dark-mode .input-unique {
 
 body.dark-mode .msl-search input {
   background:var(--glass-dark);
-  border-color:rgba(255,140,66,0.2);
+  border-color:#4f8cc9;
   color:var(--text-dark);
 }
 
